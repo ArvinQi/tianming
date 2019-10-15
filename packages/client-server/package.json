@@ -9,7 +9,7 @@
   "author": "arvin.qi <arvin.qi@qq.com>",
   "homepage": "https://github.com/ArvinQi/tianming#readme",
   "license": "MIT",
-  "main": "lib/client-server.js",
+  "main": "bin/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
