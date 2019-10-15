@@ -1,11 +1,11 @@
-# `jinlong-admin`
+# `client-server`
 
 > TODO: description
 
 ## Usage
 
 ```
-const jinlongAdmin = require('jinlong-admin');
+const clientServer = require('client-server');
 
 // TODO: DEMONSTRATE API
 ```
