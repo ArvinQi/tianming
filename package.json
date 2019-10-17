@@ -3,5 +3,10 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.17.0"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }

@@ -45,5 +45,10 @@
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
