@@ -2,11 +2,16 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.17.0"
+    "@types/node": "^12.11.1",
+    "lerna": "^3.17.0",
+    "typescript": "^3.6.4"
   },
   "bit": {
-    "env": {},
+    "env": {
+      "compiler": "bit.envs/compilers/typescript@3.0.35"
+    },
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
-  }
+    "packageManager": "yarn"
+  },
+  "dependencies": {}
 }

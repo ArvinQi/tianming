@@ -1,0 +1,17 @@
+{
+  "name": "@bit/tianming.tianming.compile",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/tianming/tianming/compile",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.11.1"
+  },
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/typescript@3.0.35"
+    }
+  }
+}

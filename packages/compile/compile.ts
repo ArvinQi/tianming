@@ -1,16 +1,15 @@
 // TODO:compile app into static files
-import path from 'path';
-import process from 'process';
+import * as path from 'path';
+import * as process from 'process';
 import {execSync} from 'child_process';
 
-execSync('bit init', {
-    stdio: 'stdio' ,
-    cwd: path.join(process.cwd(), 'scripts')
-}, (err, stdout, stderr) => {
-    if(err) {
-        console.log(err);
-        return;
-    }
-    console.log(`stdout: ${stdout}`);
-});
-
+export default function() {
+//   const path = require("path");
+//   const process = require("process");
+//   const execSync = require("child_process").execSync;
+  const stdout = execSync("sdf", {
+    // stdio: 'stdio' ,
+    cwd: path.join(process.cwd(), "scripts")
+  });
+  console.log(`stdout: ${stdout}`);
+}
