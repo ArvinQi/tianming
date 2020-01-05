@@ -1,17 +1,8 @@
 {
-  "name": "root",
+  "name": "tianming",
   "private": true,
   "devDependencies": {
-    "@types/node": "^12.11.1",
-    "lerna": "^3.17.0",
-    "typescript": "^3.6.4"
-  },
-  "bit": {
-    "env": {
-      "compiler": "bit.envs/compilers/typescript@3.0.35"
-    },
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "yarn"
+    "lerna": "^3.17.0"
   },
   "dependencies": {}
 }
