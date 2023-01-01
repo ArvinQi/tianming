@@ -35,7 +35,7 @@
     "@types/react-dom": "latest",
     "@types/react-router": "latest",
     "@types/react-router-dom": "latest",
-    "piral-cli": "0.9.3",
+    "piral-cli": "0.15.4",
     "sass": "^1.24.2",
     "typescript": "latest"
   }
